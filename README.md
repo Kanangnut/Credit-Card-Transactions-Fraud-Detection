@@ -27,3 +27,52 @@ This project focuses on building a robust fraud detection model using credit car
 
 5. **Conclusion**  
    - After evaluating all models, the **LightGBM** and **Gradient Boosting** models stood out as the best performers, balancing accuracy and precision while managing the challenge of imbalanced data.
+
+### Tools and Technical Stack
+
+#### **Libraries/Frameworks Used:**
+
+1. **Data Manipulation and Analysis:**
+   - `pandas`: For data manipulation, cleaning, and exploratory data analysis.
+   - `numpy`: For numerical computations and handling arrays.
+
+2. **Data Visualization:**
+   - `matplotlib`: For creating plots, histograms, and charts.
+   - `seaborn`: For statistical data visualization, creating attractive plots.
+
+3. **Missing Data Visualization:**
+   - `missingno`: For visualizing missing data patterns.
+
+4. **Feature Engineering and Encoding:**
+   - `scikit-learn`: For feature scaling, train-test splitting, and machine learning models.
+   - `category_encoders`: For categorical data encoding (e.g., WOE encoding).
+   - `pandas-profiling`: For automated exploratory data analysis.
+
+5. **Machine Learning Models:**
+   - **K-Nearest Neighbors (KNN)**: For classification tasks.
+   - **Random Forest**: For ensemble learning and feature importance.
+   - **Gradient Boosting**: For boosting model performance.
+   - **LightGBM**: For fast, efficient boosting models.
+   - **Logistic Regression**: For baseline classification and binary prediction.
+
+6. **Model Evaluation and Metrics:**
+   - `scikit-learn`: For model evaluation metrics such as accuracy, precision, recall, F1 score, and ROC-AUC.
+   - `imblearn`: For handling imbalanced datasets, using undersampling techniques.
+
+7. **Profiling and Feature Selection:**
+   - `BorutaPy`: For feature importance and selection with random forests.
+
+8. **Mathematical Operations and Statistical Functions:**
+   - `scipy`: For statistical functions, probability distributions, and normality checks.
+   - `math`: For additional mathematical operations.
+
+9. **Date and Time Manipulation:**
+   - `datetime`: For working with time-related features in the dataset.
+
+#### **Data Science Workflow:**
+
+- **Data Cleaning:** Removed duplicates, handled missing values, and performed feature engineering (e.g., time-based features, distance calculations).
+- **Exploratory Data Analysis (EDA):** Visualized data distribution and relationships between key features and the target variable.
+- **Feature Engineering:** Extracted relevant features (e.g., transaction time, age group, distance between home and merchant).
+- **Model Building:** Implemented multiple machine learning models to predict fraudulent transactions.
+- **Evaluation:** Assessed models using metrics like accuracy, recall, precision, F1-score, and ROC-AUC.
