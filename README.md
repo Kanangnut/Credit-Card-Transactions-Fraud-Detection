@@ -1,6 +1,11 @@
 ### Credit Card Fraud Detection using Machine Learning
 
 This project focuses on building a robust fraud detection model using credit card transaction data. The goal is to predict fraudulent transactions based on transaction details and cardholder information. The project goes through several stages, from data preprocessing and exploratory data analysis (EDA) to modeling and evaluation using multiple machine learning algorithms. The result of this you can find on Pandas Profiling [Pandas Profiling](https://github.com/Kanangnut/Credit-Card-Transactions-Fraud-Detection/blob/main/pandas_profile_folder/Credit_Card_Transactions_Fraud_profile.html).
+
+#### Pandas Profiling Preview
+
+![Profiling](https://github.com/Kanangnut/Credit-Card-Transactions-Fraud-Detection/blob/main/project_preview/Credit-Card-Transactions-Fraud-Detection-GIF.gif?raw=true)
+
 #### Contents
 
 1. **Data Preprocessing**  
